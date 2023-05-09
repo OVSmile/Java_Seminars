@@ -5,7 +5,8 @@ public class Main {
         zoo.addList(new Wolf("Wolf"))
                 .addList(new Hare("Hare"))
                 .addList(new Duck("Donald"))
-                .addList(new Bat("Batman"));
+                .addList(new Bat("Batman"))
+                .addList(new Dolphin("Fliper"));
 
         System.out.println("Все животные зоопарка");
         for (var item : zoo.getListAnimal()) {
@@ -26,12 +27,22 @@ public class Main {
         for (var item : zoo.flyables()) {
             System.out.printf("%s, Speed: %d\n", item.toString(), item.flySpeed());
         }
+
+        System.out.println();
+        System.out.println("Могут плавать");
+        for (var item : zoo.swimmings()) {
+            System.out.printf("%s, Speed: %d\n", item.toString(), item.swimSpeed());
+        }
         System.out.println();
         System.out.println("Быстрее всех бегает>");
-        System.out.println("Winner" + zoo.winnerWalk());
+        System.out.println("Winner - " + zoo.winnerWalk());
 
         System.out.println();
         System.out.println("Быстрее всех летает");
-        System.out.println("Winner" + zoo.winnerFly());
+        System.out.println("Winner - " + zoo.winnerFly());
+
+        System.out.println();
+        System.out.println("Быстрее всех плавает");
+        System.out.println("Winner - " + zoo.winnerSwim());
     }
 }
