@@ -3,7 +3,7 @@ import java.util.Random;
 public class Warrior{
     private String name;
 
-    private Weapon weapon;
+    protected Weapon weapon;
 
     private int health;
 
