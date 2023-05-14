@@ -3,7 +3,19 @@ import java.util.Random;
 public class Warrior<T extends Weapon>{
     private String name;
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public T getWeapon() {
+        return weapon;
+    }
+
     protected T weapon;
+
+    public int getHealth() {
+        return health;
+    }
 
     private int health;
 
