@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Characters<T> {
+public class Characters<T extends Warrior> {
     List<T> characters = new ArrayList<>();
 
     public Characters<T> add(T warrior) {
@@ -14,7 +14,7 @@ public class Characters<T> {
         StringBuilder sb = new StringBuilder();
         for (T item: characters) {
             sb.append(item);
-            sb.append("\n");
+            sb.append("\n");;
 
         }
         return sb.toString();

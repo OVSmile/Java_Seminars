@@ -1,13 +1,13 @@
 import java.util.Random;
 
-public class Warrior{
+public class Warrior<T extends Weapon>{
     private String name;
 
-    protected Weapon weapon;
+    protected T weapon;
 
     private int health;
 
-    public Warrior(String name, Weapon weapon, int health) {
+    public Warrior(String name, T weapon, int health) {
         this.name = name;
         this.weapon = weapon;
         this.health = health;
@@ -17,7 +17,7 @@ public class Warrior{
 
     @Override
     public String toString() {
-        return String.format("Warrior {name = %s, weapon = %d, health = %d",name, weapon, health);
+        return String.format("name: %s, weapon: %s, health: %d",name, weapon, health);
     }
 
     public int hit() {
