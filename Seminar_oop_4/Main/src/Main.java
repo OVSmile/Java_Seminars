@@ -16,5 +16,6 @@ public class Main {
 
         Warrior winner = battle.fight();
         System.out.println(winner);
+
     }
 }
