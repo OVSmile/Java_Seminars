@@ -1,7 +1,7 @@
-public class Barbarian extends Warrior<Axe>{
+public class Barbarian extends Warrior<Axe, ironShield>{
 
-    public Barbarian(String name, Axe axe, int health) {
-        super(name, axe, health);
+    public Barbarian(String name, Axe axe, ironShield ironShield, int health) {
+        super(name, axe, ironShield, health);
     }
 
     @Override
