@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Seminar_oop_6.iml" filepath="$PROJECT_DIR$/Seminar_oop_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid1Srp1/Solid1Srp1.iml" filepath="$PROJECT_DIR$/Solid1Srp1/Solid1Srp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid2Srp2/Solid2Srp2.iml" filepath="$PROJECT_DIR$/Solid2Srp2/Solid2Srp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid3Ocp1/Solid3Ocp1.iml" filepath="$PROJECT_DIR$/Solid3Ocp1/Solid3Ocp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid4Lsp1/Solid4Lsp1.iml" filepath="$PROJECT_DIR$/Solid4Lsp1/Solid4Lsp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid5Lsp2/Solid5Lsp2.iml" filepath="$PROJECT_DIR$/Solid5Lsp2/Solid5Lsp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid6Isp1/Solid6Isp1.iml" filepath="$PROJECT_DIR$/Solid6Isp1/Solid6Isp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid7Dip/Solid7Dip.iml" filepath="$PROJECT_DIR$/Solid7Dip/Solid7Dip.iml" />
+    </modules>
+  </component>
+</project>
