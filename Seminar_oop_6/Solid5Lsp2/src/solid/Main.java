@@ -1,5 +1,6 @@
 package solid;
 
+import solid.lsp.AbstractOrder;
 import solid.lsp.FactoryOrder;
 import solid.lsp.Order;
 import solid.lsp.OrderBonus;
@@ -11,7 +12,7 @@ public class Main {
         calculator.add(creator.create(3, 2, false));
         calculator.add(creator.create(1, 3, true));
 
-        for (Order order : calculator) {
+        for (AbstractOrder order : calculator) {
             System.out.println(order);
         }
 
